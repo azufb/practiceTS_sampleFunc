@@ -70,3 +70,5 @@ const returnFavoArrayFunc: ReturnFavoFunctionType = (restaurants: FastFoodRestau
 };
 
 console.log(returnFavoArrayFunc(fastFoodRestaurants));
+
+export {};
