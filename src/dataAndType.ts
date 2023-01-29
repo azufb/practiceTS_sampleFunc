@@ -184,10 +184,17 @@ type SampleObj5WithExtends<T extends Sample> = {
     data: T;
 };
 
-const sampleObj5withExtends: SampleObj5WithExtends<Sample> = {
+// SampleSubType型は、Sample型の部分型・
+type SampleSubType = {
+    age: number;
+    gender: string;
+};
+
+const sampleObj5withExtends: SampleObj5WithExtends<SampleSubType> = {
     name: 'hoge',
     data: {
-        age: 24
+        age: 24,
+        gender: 'female'
     }
 };
 
