@@ -2,6 +2,7 @@
 
 // 正規表現を使って、引数として渡された文字列に特定の文字列が含まれるかチェックする。
 // 特定の文字列＝TypeScript
+// 引数はstring型、返り値はboolean型。
 const checkArgString = (argStr: string): boolean => {
     // 正規表現オブジェクト。正規表現リテラルを使って作成。
     const expression: RegExp = /TypeScript/;
