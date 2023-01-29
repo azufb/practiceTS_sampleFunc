@@ -239,3 +239,5 @@ const sampleTupleArray: [string, number, boolean] = ['hoge', 123, true];
 /*
 タプル型においても、readonlyを付けた読み取り専用のタプル型や、要素の型名の後に?を付けたオプショナルな要素を持つタプル型などがある。
 */
+
+export {};
