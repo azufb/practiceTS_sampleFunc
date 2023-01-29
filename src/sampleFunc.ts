@@ -45,3 +45,5 @@ const outputArrayFunc = (arr: number[]): void => {
 
 const sampleNumArray: number[] = [1, 2, 3];
 outputArrayFunc(sampleNumArray);
+
+export {};
